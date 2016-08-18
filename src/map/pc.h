@@ -136,7 +136,7 @@ struct map_session_data {
 		unsigned int changemap : 1;
 		short pmap; // Previous map on Map Change
 		unsigned short autoloot;
-		unsigned short autolootid; // [Zephyrus]
+		unsigned short autolootid[10]; // [Zephyrus]
 		unsigned short autobonus; //flag to indicate if an autobonus is activated. [Inkfish]
 		unsigned int warping : 1;//states whether you're in the middle of a warp processing
 	} state;
